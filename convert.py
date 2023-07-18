@@ -14,7 +14,7 @@ def download_video(url):
     video_filename = video.default_filename
     video.download(download_path)
     return video_filename
-    time.sleep(6)
+    time.sleep(10)
 
 filename = download_video(video_url)
 
