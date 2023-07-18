@@ -3,8 +3,8 @@ from moviepy.editor import VideoFileClip
 import time
 
 # Configure the download and conversion paths
-download_path = r"C:\Users\Billy.davison\Downloads\YoutubeDownloads"
-conversion_path = r"C:\Users\Billy.davison\Downloads\YoutubeDownloads\Converted"
+download_path = r"file\directory\here"
+conversion_path = r"convert-file\directory\here"
 video_url = input("Paste your video url here: ")
 
 # Function to download the YouTube video
